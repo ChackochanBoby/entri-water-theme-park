@@ -28,3 +28,19 @@ header,.submitbtn,.submitbtn:hover{
 #firstname,#lastname,#e-mail,#message{
     width: min(70%,400px)
 }
+.standard{
+    background: linear-gradient(to bottom, lightgreen,green);
+}
+.premium{
+    background: linear-gradient(to bottom, gold,red);
+}
+.student{
+    background: linear-gradient(to bottom, cyan,blue);
+}
+.group{
+    background: linear-gradient(to bottom, pink,purple);
+}
+.standard,.student,.premium,.group{
+    color: white;
+    padding-top: 10px;
+}
